@@ -31,7 +31,7 @@ from PIL import Image
 from scipy.misc import imsave
 
 
-resultSource = os.path.join(os.path.abspath('..'), 'result/tst_tt1.txt')
+resultSource = os.path.join(os.path.abspath('..'), 'result/tst_tt1.txt')  #os.path.join()用于路径拼接
 file_w = open(resultSource, 'a')
 try:
     file_w.write("lmbda is 0.25\ntheta is 0.7\n")
